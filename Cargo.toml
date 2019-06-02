@@ -7,3 +7,4 @@ edition = "2018"
 [dependencies]
 tide = "0.2.0"
 maud = {git = "https://github.com/aknuds1/maud", rev = "69d25d0b9a3152008588de1eec00f452d1e68127", features = ["tide"]}
+diesel = { version = "1.4.2", features = ["postgres"] }
